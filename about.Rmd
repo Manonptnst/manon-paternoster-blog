@@ -1,8 +1,11 @@
 ---
 title: "About me"
 ---
++ Manon Paternoster 
 
++ Section : Biologie (BAB1 et BAB2 : cas particulier)
 
-This section also must include: 
++ Sujet : blog littéraire 
 
-- first name/surname, teacher’s name, class name and academic year
++ Année académique: 2019-2020
+
