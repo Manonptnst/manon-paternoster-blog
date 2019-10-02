@@ -1,5 +1,5 @@
-name: "blog-template"
-title: "Nic's Blog"
+name: "Manon-Paternoster-blog"
+title: "Manon's Blog"
 output_dir: "docs"
 navbar:
   right:
@@ -10,8 +10,8 @@ navbar:
     - text: "About"
       href: about.html
     - icon: fab fa-github
-      href: https://github.com/BioDataScience-Course/blog-template
-base_url: http://biodatascience-course.sciviews.org/blog-template/
+      href: https://github.com/Manonptnst/Manon-paternoster-blog
+base_url: https://Manonptnst.github.io/Manon-paternoster-blog/
 collections:
     posts:
       share: [twitter, linkedin, facebook]
