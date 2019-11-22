@@ -1,8 +1,8 @@
 name: "Manon-Paternoster-blog"
 title: "Manon's Blog"
 output_dir: "docs"
-navbar:
   right:
+navbar:
     - text: "Home"
       href: index.html
     - text: "Miscellaneous"
@@ -14,6 +14,8 @@ navbar:
 base_url: https://Manonptnst.github.io/Manon-paternoster-blog/
 collections:
     posts:
-    disque : manon-paternoster-blog
+    disqus : manon-paternoster-blog
       share: [twitter, linkedin, facebook]
-output: distill::distill_article
+output:
+  distill::distill_article:
+    css: styles.css
