@@ -1,8 +1,8 @@
 name: "blog-template"
 title: "Manon's Blog"
 output_dir: "docs"
-  right:
 navbar:
+  right:
     - text: "Home"
       href: index.html
     - text: "Miscellaneous"
@@ -14,7 +14,9 @@ navbar:
 base_url: https://Manonptnst.github.io/Manon-paternoster-blog/
 collections:
     posts:
-    disqus : "manon-paternoster-blog"
+      disqus: 
+         shortname: "manon-paternoster-blog"
+         hidden: false
       share: [twitter, linkedin, facebook]
 output:
   distill::distill_article:
