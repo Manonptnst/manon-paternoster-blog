@@ -1,8 +1,8 @@
 name: "blog-template"
 title: "Manon's Blog"
-output_dir: "docs"
-  right:
+output_dir: "docs":
 navbar:
+  right:
     - text: "Home"
       href: index.html
     - text: "Miscellaneous"
