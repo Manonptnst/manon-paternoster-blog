@@ -1,11 +1,12 @@
 ---
-title: "About me"
+title: "À propos de moi"
 ---
 + Manon Paternoster 
 
 + Section : Biologie (BAB1 et BAB2: cas particulier)
 
-+ Sujet : blog littéraire "Mes préférences de lecture"
++ Sujet : blog littéraire
 
 + Année académique: 2019-2020
 
+Un livre à la main depuis mes 10 ans, j’ai toujours aimé ce qui se rapportait au surnaturel, fantastique, avec une pointe de romantisme. Tellement, que j’ai moi-même passé le cap et ai commencé à écrire plusieurs histoires sur ces créatures mythiques. Ce blog est consacré aux lectures que j’ai apprécié mais aussi à celles que je veux vous faire découvrir.
