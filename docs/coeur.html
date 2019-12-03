@@ -19,26 +19,30 @@
  <!--/radix_placeholder_import_source-->
 
   <!--radix_placeholder_meta_tags-->
-  <title>Manon's blog: Blog littéraire</title>
+  <title>Manon's blog: Coup de coeur</title>
   
   
   
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2019-03-12"/>
+  <meta property="article:created" itemprop="dateCreated" content="2019-03-12"/>
+  <meta name="article:author" content="Manon Paternoster"/>
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Manon&#39;s blog: Blog littéraire"/>
+  <meta property="og:title" content="Manon&#39;s blog: Coup de coeur"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Manon&#39;s blog"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Manon&#39;s blog: Blog littéraire"/>
+  <meta property="twitter:title" content="Manon&#39;s blog: Coup de coeur"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["Blog littéraire"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Coup de coeur"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Manon Paternoster"]}]}]},{"type":"character","attributes":{},"value":["03/12/2019"]},{"type":"character","attributes":{},"value":["html_document"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1295,12 +1299,12 @@
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Blog littéraire","authors":[]}
+{"title":"Coup de coeur","authors":[{"author":"Manon Paternoster","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#"}],"publishedDate":"2019-03-12T00:00:00.000+01:00","citationText":"Paternoster, 2019"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1326,356 +1330,34 @@
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-<style type="text/css">
-
-/* Styles for listing layout (hide title) */
-.layout-listing d-title, .layout-listing .d-title {
-  display: none;
-}
-
-/* Styles for posts lists (not auto-injected) */
-
-
-.posts-with-sidebar {
-  padding-left: 45px;
-  padding-right: 45px;
-}
-
-.posts-list .description h2,
-.posts-list .description p {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-}
-
-.posts-list .description h2 {
-  font-weight: 700;
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
-.posts-list h2.post-tag {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  padding-bottom: 12px;
-}
-.posts-list {
-  margin-top: 60px;
-  margin-bottom: 24px;
-}
-
-.posts-list .post-preview {
-  text-decoration: none;
-  overflow: hidden;
-  display: block;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 24px 0;
-}
-
-.post-preview-last {
-  border-bottom: none !important;
-}
-
-.posts-list .posts-list-caption {
-  grid-column: screen;
-  font-weight: 400;
-}
-
-.posts-list .post-preview h2 {
-  margin: 0 0 6px 0;
-  line-height: 1.2em;
-  font-style: normal;
-  font-size: 24px;
-}
-
-.posts-list .post-preview p {
-  margin: 0 0 12px 0;
-  line-height: 1.4em;
-  font-size: 16px;
-}
-
-.posts-list .post-preview .thumbnail {
-  box-sizing: border-box;
-  margin-bottom: 24px;
-  position: relative;
-  max-width: 500px;
-}
-.posts-list .post-preview img {
-  width: 100%;
-  display: block;
-}
-
-.posts-list .metadata {
-  font-size: 12px;
-  line-height: 1.4em;
-  margin-bottom: 18px;
-}
-
-.posts-list .metadata > * {
-  display: inline-block;
-}
-
-.posts-list .metadata .publishedDate {
-  margin-right: 1em;
-}
-
-.posts-list .metadata .tags {
-  margin-top: 1em;
-}
-
-.posts-list .tags .tag {
-  color: rgba(0,0,0,0.67);
-  padding: 0.3em 0.5em;
-  margin: 0;
-  font-size: 80%;
-  border: 1px solid rgba(0,0,0,0.4);
-  border-radius: 3px;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-
-.posts-list img {
-  opacity: 1;
-}
-
-.posts-list img[data-src] {
-  opacity: 0;
-}
-
-.posts-more {
-  clear: both;
-}
-
-
-.posts-sidebar {
-  font-size: 16px;
-}
-
-.posts-sidebar h3 {
-  font-size: 16px;
-  margin-top: 0;
-  margin-bottom: 0.5em;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.sidebar-section {
-  margin-bottom: 30px;
-}
-
-.categories ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.categories li {
-  color: rgba(0, 0, 0, 0.8);
-  margin-bottom: 0;
-}
-
-.categories li>a {
-  border-bottom: none;
-}
-
-.categories li>a:hover {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-}
-
-.categories .active {
-  font-weight: 600;
-}
-
-.categories .category-count {
-  color: rgba(0, 0, 0, 0.4);
-}
-
-
-@media(min-width: 768px) {
-  .posts-list .post-preview h2 {
-    font-size: 26px;
-  }
-  .posts-list .post-preview .thumbnail {
-    float: right;
-    width: 35%;
-    margin-bottom: 0;
-  }
-  .posts-list .post-preview .description {
-    float: left;
-    width: 45%;
-  }
-  .posts-list .post-preview .metadata {
-    float: left;
-    width: 15%;
-    margin-top: 8px;
-  }
-  .posts-list .post-preview p {
-    margin: 0 0 12px 0;
-    line-height: 1.5em;
-    font-size: 16px;
-  }
-  .posts-with-sidebar .posts-list {
-    float: left;
-    width: 72%;
-  }
-  .posts-with-sidebar .posts-sidebar {
-    float: right;
-    width: 20%;
-    margin-top: 60px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
-}
-
-.downlevel .posts-list .post-preview {
-  color: inherit;
-}
-
-</style>
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).load(function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace("#", "");
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if (category == page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-apply-limit l-page">
-<div class="posts-list">
-<h1 class="posts-list-caption">Blog littéraire</h1>
-<a href="posts/2019-12-03-article-1/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Dec. 3, 2019</div>
-</div>
-<div class="thumbnail">
-<img data-src="posts/2019-12-03-article-1/certaines-mettent-les-dents.jpg"/>
-</div>
-<div class="description">
-<h2>Article 1 : Les vampires de Chicago ~ Chloé Neill</h2>
-<p>Ça va saigner !</p>
-</div>
-</a>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>Blog littéraire</h1>
+<h1>Coup de coeur</h1>
 
 </div>
 
+<div class="d-byline">
+  
+  Manon Paternoster
+  
+<br/>03/12/2019
+</div>
 
 <div class="d-article">
-<div class="layout-chunk" data-layout="l-body">
-
-</div>
+<h2 id="lappel-de-la-lune-patricia-briggs">“L’appel de la lune” ~ Patricia Briggs</h2>
+<p><img src="mercy-thompson.jpg" /></p>
+<p>“Les loups-garous peuvent être dangereux si vous vous mettez en travers de leur chemin. Ils ont un talent extraordinaire pour dissimuler leur véritable nature aux yeux des humains. Mais moi, je ne suis pas tout à fait humaine.” En effet, Mercy Thompson n’est pas une fille des plus banales. Mécanicienne dans le Montana, c’est une dure à cuire qui n’hésite pas à mettre les mains dans le cambouis et à sortir les griffes quand le danger frappe à sa porte. Mais ce n’est pas tout : son voisin est le chef de meute d’une bande de loups-garous, le minibus qu’elle bricole en ce moment appartient à un vampire, et la vieille dame très digne qui lui rend visite vient jeter des sorts sur son garage. Au cœur de ce monde des créatures de la nuit, Mercy se trouve mêlée à une délicate affaire de meurtre et d’enlèvement…&quot;</p>
+<h2 id="les-chroniques-lunaires-merissa-mayer">“Les chroniques lunaires” ~ Merissa Mayer</h2>
+<p><img src="chroniques-lunaires.jpg" /> “Les humains et les androids se pressent dans les rues bruyantes de la Nouvelle-Pékin. Une peste mortelle ravage la population. Depuis la lune, un peuple sans pitié observe la situation, en attendant de passer à l’attaque… Personne ne sait que le sort de la Terre ne dépend que d’une seule fille… Cinder est un cyborg, une mécanicienne très douée. Citoyenne de seconde classe, elle a un passé mystérieux, et vit avec ses désagréables belle-mère et belles-sœurs. Sa rencontre avec le prince Kai va la précipiter au cœur d’une lutte intergalactique. Partagée entre le devoir et la liberté, la loyauté et la trahison, elle doit découvrir les secrets de son passé, afin de protéger l’avenir de son monde.”</p>
+<h2 id="the-curse-marie-rutkoski">“The curse” ~ Marie Rutkoski</h2>
+<p><img src="Thecurse.jpg" /></p>
+<p>“Fille du plus célèbre général d’un empire conquérant, Kestrel n’a que deux choix devant elle : s’enrôler dans l’armée ou se marier. Mais à dix-sept ans à peine, elle n’est pas prête à se fermer ainsi tous les horizons. Un jour, au marché, elle cède à une impulsion et acquiert pour une petite fortune un esclave rebelle à qui elle espère éviter la mort. Bientôt, toute la ville ne parle plus que de son coup de folie. Kestrel vient de succomber à la” malédiction du vainqueur &quot; : celui qui remporte une enchère achète forcément pour un prix trop élevé l’objet de sa convoitise. Elle ignore encore qu’elle est loin, bien loin, d’avoir fini de payer son geste. Joueuse hors pair, stratège confirmée, elle a la réputation de toujours savoir quand on lui ment. Elle croit donc deviner une partie du passé tourmenté de l’esclave, Arin, et comprend qu’il n’est pas qui il paraît… Mais ce qu’elle soupçonne n’est qu’une infime partie de la vérité, une vérité qui pourrait bien lui coûter la vie, à elle et à tout son entourage. Gagner peut être la pire des malédictions… Jeux de pouvoir, coups de bluff et pièges insidieux : dans un monde nouveau, né de l’imagination d’une auteure unanimement saluée pour son talent, deux jeunes gens que tout oppose se livrent à une partie de poker menteur qui pourrait bien décider de la destinée de tout un peuple !&quot;</p>
+<h2 id="covenant-jennifer-l.-armentrout">“Covenant” ~ Jennifer L. Armentrout</h2>
+<p><img src="covenant.jpg" /></p>
+<p>“Sur une île au large de la Caroline du Nord vivent les hematoï, des individus au sang pur et aux pouvoirs divins capables de maîtriser les quatre éléments. Ceux dont la lignée a connu un métissage sont contraints de choisir leur destin : intégrer le corps des Sentinelles du Covenant pour chasser les démons, leurs ennemis originels, ou être réduits à la servitude. De retour depuis peu au Covenant pour des raisons qui lui appartiennent, Alexandria n’a pas le choix : fille d’une hématoï et d’un simple mortel, elle se doit de réussir l’examen lui permettant de devenir Sentinelle. L’institution applique une discipline de fer, et les relations entre les sang-pur et les sang-mêlé sont formellement interdites, sous peine d’exclusion, ou pire. Une règle qui pourrait être simple si Aiden, un sang-pur aux yeux couleur d’orage qu’Alex convoite depuis toujours, n’avait pas été désigné comme son entraîneur personnel… En bonus, découvrez les origines d’Alexandria dans le préquel Démon : bienvenue au Covenant !”</p>
+<h2 id="letoile-noire-jennifer-l.-armentrout">“L’étoile noire” ~ Jennifer L. Armentrout</h2>
+<p><img src="%C3%A9toile-noire.jpg" /></p>
+<p>“Quatre ans se sont écoulés depuis l’invasion extraterrestre. À l’âge de 17 ans, Evie Dasher n’en a que peu de souvenirs. Lorsqu’elle décide de se rendre en cachette dans une boîte de nuit connue pour être l’un des rares lieux où il est encore possible de côtoyer les Luxens survivants, la soirée ne se déroule pas tout à fait comme prévu. Quand les choses tournent mal, elle fait la connaissance de Luc, un jeune homme beaucoup trop beau pour être humain. De plus en plus attirée par celui qu’elle prend pour un Luxen, Evie découvre un monde insoupçonné qui remet en question tout ce qu’elle pensait savoir. Un monde composé d’êtres aussi lumineux que ténébreux…”</p>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

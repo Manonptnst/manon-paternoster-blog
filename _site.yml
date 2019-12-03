@@ -9,6 +9,8 @@ navbar:
       href: index.html
     - text: "Ma PAL"
       href: PAL.html
+    - text: "Mes coups de coeur"
+      href: coeur.html
     - text: "A propos de moi"
       href: about.html
     - icon: fab fa-github
