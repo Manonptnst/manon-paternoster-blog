@@ -1,0 +1,25 @@
+---
+title: "Evalue tes connaissances"
+author: "Manon Paternoster"
+date: "12/3/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Un peu de culture général...
+
+Il arrive qu’on confonde fréquemment la fantaisie au fantastique. Pour ne plus que cela arrive, voila comment faire la distinction entre les deux:
+
+La fantasy est un genre littéraire défini en premier lieu par l'élaboration d'un univers distinct du "monde réel", avec ses propres lois et caractéristiques, plus ou moins différentes de celles du nôtre. Elle comprend généralement un aspect mythique, symbolisé par l'intrusion ou l'usage de la magie. 
+
+Le fantastique est un genre littéraire que l'on peut définir comme l'intrusion du surnaturel dans le cadre réaliste d'un récit, autrement dit l'apparition de faits inexpliqués et théoriquement inexplicables dans un contexte connu du lecteur. Il se situe à mi-chemin entre les genres du merveilleux (et de la fantasy), dans lesquels le surnaturel est accepté et justifié, et de l'étrange, où les faits apparemment surnaturels sont expliqués et acceptés comme normaux.
+
+## Le saviez-vous? 
+La lecture fait diminuer le stress et l’anxiété. 
+
+La lecture améliore la concentration et l’attention.
+
+La lecture améliore la qualité du sommeil. 

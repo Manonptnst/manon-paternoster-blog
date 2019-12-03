@@ -1,5 +1,5 @@
 name: "blog-template"
-title: "Manon's blog"
+title: "Paternoster Manon blog"
 output_dir: "docs"
 navbar:
   right:
@@ -11,6 +11,8 @@ navbar:
       href: PAL.html
     - text: "Mes coups de coeur"
       href: coeur.html
+    - text: "Evalue tes connaissances"
+      href: connaissance.html 
     - text: "A propos de moi"
       href: about.html
     - icon: fab fa-github
