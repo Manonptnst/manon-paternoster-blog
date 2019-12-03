@@ -1,0 +1,75 @@
+---
+title: "Article 1 : Les vampires de Chicago ~ Chloé Neill"
+description:
+  "Ça va saigner !" 
+author:
+  - name: Manon Paternoster
+date: 12-03-2019
+preview: certaines-mettent-les-dents.jpg
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+> Biographie 
+
+![](chloe-neill-3073773.jpg)
+
+Chloé Neill est une auteure américaine de 44 ans friande de romans fantaisistes urbains et romantiques. Quand elle ne lit pas, elle fait des gâteaux et supporte son équipe de football américaine préférée. Chloé est une auteure à succès du *New York Times* magazine et *USA Today* grâce notamment à ces grandes réussites telles que: "les vampires de Chicago", "les héritiers de Chicago" et "Dark Elite".
+ 
+* Edition
+ 
+Les livres "Les vampires de Chicago" sont édités par la maison d’édition *Milady*. La série comporte en tout **13 livres** (hors HS).
+ 
+* Genre
+
+Bit-lit, Surnaturel, fantaisie urbaine.
+
+> Résumé: tome 1
+
+"Certaines mettent les dents" 
+
+Ils m’ont tuée. Ils m’ont soignée. Ils m’ont changée. 
+Les vampires de Chicago ont décidé de révéler leur existence et ont fait de moi l’une des leurs. Certes, ma vie d’étudiante n’était pas très excitante, mais elle me convenait. 
+Maintenant je dois apprendre à maitriser mes pouvoirs naissants sans pour autant jurer fidélité à Ethan Sullivan, le Maitre de mon clan. D’accord, il m’a sauvé la vie, mais c’est quand même à cause de lui si je suis allergique au soleil! S’il croit que je vais fondre sous prétexte qu’il a des siècles d’expérience en matière de séduction…
+J’ai plus urgent : un tueur a une dent contre moi. Ça va saigner!
+
+> Mon avis 
+
+Bien que le début soit difficile, l’auteur arrive très bien à nous faire rentrer dans l’histoire. J’étais assez sceptique quant à la rapidité de l’acceptation de Merit au sein du clan mais quand on voit quels pouvoirs elle acquiert pour son jeune âge en tant que vampire, cela semble finalement assez cohérent. On retrouve une **touche d’humour** mêlé à un caractère bien trempé de la part de Merit que nous pouvons qu’apprécier ! Les personnages sont **multiples** et **intéressants**, chacun ayant sa **personnalité propre**. Je ne peux que vous inciter à aller lire ce premier tome qui vous tiendra en haleine jusqu’à la fin ! 
+
+> L’avis des lecteurs
+
+* "BON SANG !
+
+Je suis littéralement **séduite** par cette nouvelle série. Les **personnages** sont **hauts en couleurs** et extrêmement **attachants**, l'histoire de la transformation de Merit en vampire et l'acceptation de sa nouvelle condition : **intéressante et crédible**.
+L'interaction entre Merit et Ethan : désopilante, sexy et intense.
+Bref, vous l'avez compris j'adhère complètement aux "Vamp de Chicago", le tout sur fond d'enquête sur de multiples meurtres.
+Humour, action, réparties, sarcasmes, amitié, loyauté...
+J'ai ADORE !"
+
+* "Un premier tome que j'ai **adoré**, surtout le personnage principal, que je trouve **attachante**, et surtout **très drôle**. Elle possède un **humour mordant** que j'adore.
+L'histoire est tout aussi bien , j'adore cela change de ce que l'on peut sur les vampires 
+d’habitude."
+
+* "Wouaw ! Ce premier tome est **époustouflant**, **rempli d'humour** et... il n'y a pas de mot mais je suis séduite !
+Merit nous raconte son ascension de sa transformation à son statue de haute sentinelle dans la maison des Cadogan.
+MAIS ce livre est une **MERVEILLE** !
+Son personnage est excellent ! Elle ne se laisse pas marcher dessus, et est sincèrement **hilarante** !
+Et cela faisait longtemps que je n'avais pas été enjouer pour un livre comme je le suis pour celui ci !"
+
+**Note globale: 4,5 / 5**
+
+
+> Livres du même auteur:
+
+* "Les héritiers de Chicago", spin off 
+
+* "Dark Elite"
+
+* "Ile du diable", VO
+

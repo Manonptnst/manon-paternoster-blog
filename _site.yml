@@ -1,13 +1,15 @@
 name: "blog-template"
-title: "Manon's Blog"
+title: "Manon's blog"
 output_dir: "docs"
 navbar:
   right:
-    - text: "Home"
+    - text: "À la une"
+      href: news.html
+    - text: "Critiques littéraires"
       href: index.html
-    - text: "Miscellaneous"
-      href: english-activity.html
-    - text: "About"
+    - text: "Ma PAL"
+      href: PAL.html
+    - text: "A propos de moi"
       href: about.html
     - icon: fab fa-github
       href: https://github.com/Manonptnst/Manon-paternoster-blog

@@ -1,0 +1,12 @@
+---
+title: "news"
+author: "Manon Paternoster"
+date: "12/3/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Nouvelles sorties du mois

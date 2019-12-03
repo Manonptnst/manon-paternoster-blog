@@ -19,366 +19,39 @@
  <!--/radix_placeholder_import_source-->
 
   <!--radix_placeholder_meta_tags-->
-  <title>Manon's blog: Ma PAL</title>
+  <title>Article 1 : Les vampires de Chicago ~ Chloé Neill</title>
+  
+  <meta property="description" itemprop="description" content="Ça va saigner !"/>
   
   
-  
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2019-12-03"/>
+  <meta property="article:created" itemprop="dateCreated" content="2019-12-03"/>
+  <meta name="article:author" content="Manon Paternoster"/>
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Manon&#39;s blog: Ma PAL"/>
+  <meta property="og:title" content="Article 1 : Les vampires de Chicago ~ Chloé Neill"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Ça va saigner !"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Manon&#39;s blog"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Manon&#39;s blog: Ma PAL"/>
+  <meta property="twitter:title" content="Article 1 : Les vampires de Chicago ~ Chloé Neill"/>
+  <meta property="twitter:description" content="Ça va saigner !"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title"]}},"value":[{"type":"character","attributes":{},"value":["Ma PAL"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","preview","output"]}},"value":[{"type":"character","attributes":{},"value":["Article 1 : Les vampires de Chicago ~ Chloé Neill"]},{"type":"character","attributes":{},"value":["Ça va saigner !"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Manon Paternoster"]}]}]},{"type":"character","attributes":{},"value":["12-03-2019"]},{"type":"character","attributes":{},"value":["certaines-mettent-les-dents.jpg"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
-  <!--radix_placeholder_navigation_in_header-->
   
-  <script type="application/javascript">
-  
-    window.headroom_prevent_pin = false;
-  
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-  
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-  
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-  
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-  
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["Article_1.jpg","article-1_files/bowser-1.9.3/bowser.min.js","article-1_files/distill-2.2.21/template.v2.js","article-1_files/jquery-1.11.3/jquery.min.js","article-1_files/webcomponents-2.0.0/webcomponents.js","Certaines-mettent-les-dents.jpg","chloe-neill-3073773.jpg"]}
   </script>
-  
-  <style type="text/css">
-  
-  /* Theme (user-documented overrideables for nav appearance) */
-  
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #455a64;
-    font-size: 15px;
-    font-weight: 300;
-  }
-  
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .distill-site-nav a:hover {
-    color: white;
-  }
-  
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-  
-  .distill-site-header {
-  
-  }
-  
-  .distill-site-footer {
-  
-  }
-  
-  
-  /* Site Header */
-  
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-  
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-  
-  
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-  
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-  
-  .distill-site-header .title {
-    font-size: 18px;
-  }
-  
-  .distill-site-header .logo {
-    padding: 0;
-  }
-  
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-  
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-  
-  
-  
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-  
-  
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-  
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-  
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-  
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-  
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-  
-  .nav-dropdown-active {
-    display: block;
-  }
-  
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-  
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-  
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-  
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative;}
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-  
-  /* Site Footer */
-  
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-  
-  /* Headroom */
-  
-  d-title {
-    padding-top: 6rem;
-  }
-  
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-  
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-  
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-  
-  .headroom--unpinned {
-    top: -100px;
-  }
-  
-  .headroom--pinned {
-    top: 0;
-  }
-  
-  </style>
-  
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
   
@@ -1254,44 +927,13 @@
   </script>
   
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="article-1_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="article-1_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="article-1_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="article-1_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
-  <style type="text/css">
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #CD1052;
-    font-size: 15px;
-    font-weight: 300;
-  }
-  
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .distill-site-nav a:hover {
-    color: white;
-  }
-  
-  .distill-site-header {
-  }
-  
-  .distill-site-footer {
-  }
-  
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-  
-  </style>
   <!--/radix_placeholder_site_in_header-->
 
-  <link rel="stylesheet" href="styles.css" type="text/css"/>
 
 </head>
 
@@ -1300,101 +942,69 @@
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Ma PAL","authors":[]}
+{"title":"Article 1 : Les vampires de Chicago ~ Chloé Neill","description":"Ça va saigner !","authors":[{"author":"Manon Paternoster","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#"}],"publishedDate":"2019-12-03T00:00:00.000+01:00","citationText":"Paternoster, 2019"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">Manon's blog</a>
-</div>
-<div class="nav-right">
-<a href="news.html">À la une</a>
-<a href="index.html">Critiques littéraires</a>
-<a href="PAL.html">Ma PAL</a>
-<a href="about.html">A propos de moi</a>
-<a href="https://github.com/Manonptnst/Manon-paternoster-blog">
-<i class="fab fa-github"></i>
-</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Ma PAL</h1>
-
+<h1>Article 1 : Les vampires de Chicago ~ Chloé Neill</h1>
+<p>Ça va saigner !</p>
 </div>
 
+<div class="d-byline">
+  Manon Paternoster  
+  
+<br/>12-03-2019
+</div>
 
 <div class="d-article">
-<table>
-<colgroup>
-<col style="width: 47%" />
-<col style="width: 52%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Titres</th>
-<th style="text-align: center;">Auteurs</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">La maison de la nuit</td>
-<td style="text-align: center;">P. C. Cast &amp; Kristin Cast</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Sauvage</td>
-<td style="text-align: center;">Maria Vale</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Les brumes de cendrelunes</td>
-<td style="text-align: center;">Georgia Cladera</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Les vampires de Chicago</td>
-<td style="text-align: center;">Clhoe Neill</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Les foudres de la sorcère/ La guerre de la sorcière/ Le portail de la sorcière</td>
-<td style="text-align: center;">James Clemens</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Les ailes d’émeraudes</td>
-<td style="text-align: center;">Alexiane De Lys</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Vicious</td>
-<td style="text-align: center;">V.E. Schwab</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Black wings</td>
-<td style="text-align: center;">Christina Henry</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">Psi changeling</td>
-<td style="text-align: center;">Nalini Signh</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">Les anges modent aussi</td>
-<td style="text-align: center;">Felicity Atcock</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">L’amant consacré</td>
-<td style="text-align: center;">J.R. Ward</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">La morsure du serpent</td>
-<td style="text-align: center;">Mark Henwick</td>
-</tr>
-</tbody>
-</table>
+<blockquote>
+<p>Biographie</p>
+</blockquote>
+<p><img src="chloe-neill-3073773.jpg" /></p>
+<p>Chloé Neill est une auteure américaine de 44 ans friande de romans fantaisistes urbains et romantiques. Quand elle ne lit pas, elle fait des gâteaux et supporte son équipe de football américaine préférée. Chloé est une auteure à succès du <em>New York Times</em> magazine et <em>USA Today</em> grâce notamment à ces grandes réussites telles que: “les vampires de Chicago”, “les héritiers de Chicago” et “Dark Elite”.</p>
+<ul>
+<li>Edition</li>
+</ul>
+<p>Les livres “Les vampires de Chicago” sont édités par la maison d’édition <em>Milady</em>. La série comporte en tout <strong>13 livres</strong> (hors HS).</p>
+<ul>
+<li>Genre</li>
+</ul>
+<p>Bit-lit, Surnaturel, fantaisie urbaine.</p>
+<blockquote>
+<p>Résumé: tome 1</p>
+</blockquote>
+<p>“Certaines mettent les dents”</p>
+<p>Ils m’ont tuée. Ils m’ont soignée. Ils m’ont changée. Les vampires de Chicago ont décidé de révéler leur existence et ont fait de moi l’une des leurs. Certes, ma vie d’étudiante n’était pas très excitante, mais elle me convenait. Maintenant je dois apprendre à maitriser mes pouvoirs naissants sans pour autant jurer fidélité à Ethan Sullivan, le Maitre de mon clan. D’accord, il m’a sauvé la vie, mais c’est quand même à cause de lui si je suis allergique au soleil! S’il croit que je vais fondre sous prétexte qu’il a des siècles d’expérience en matière de séduction… J’ai plus urgent : un tueur a une dent contre moi. Ça va saigner!</p>
+<blockquote>
+<p>Mon avis</p>
+</blockquote>
+<p>Bien que le début soit difficile, l’auteur arrive très bien à nous faire rentrer dans l’histoire. J’étais assez sceptique quant à la rapidité de l’acceptation de Merit au sein du clan mais quand on voit quels pouvoirs elle acquiert pour son jeune âge en tant que vampire, cela semble finalement assez cohérent. On retrouve une <strong>touche d’humour</strong> mêlé à un caractère bien trempé de la part de Merit que nous pouvons qu’apprécier ! Les personnages sont <strong>multiples</strong> et <strong>intéressants</strong>, chacun ayant sa <strong>personnalité propre</strong>. Je ne peux que vous inciter à aller lire ce premier tome qui vous tiendra en haleine jusqu’à la fin !</p>
+<blockquote>
+<p>L’avis des lecteurs</p>
+</blockquote>
+<ul>
+<li>&quot;BON SANG !</li>
+</ul>
+<p>Je suis littéralement <strong>séduite</strong> par cette nouvelle série. Les <strong>personnages</strong> sont <strong>hauts en couleurs</strong> et extrêmement <strong>attachants</strong>, l’histoire de la transformation de Merit en vampire et l’acceptation de sa nouvelle condition : <strong>intéressante et crédible</strong>. L’interaction entre Merit et Ethan : désopilante, sexy et intense. Bref, vous l’avez compris j’adhère complètement aux “Vamp de Chicago”, le tout sur fond d’enquête sur de multiples meurtres. Humour, action, réparties, sarcasmes, amitié, loyauté… J’ai ADORE !&quot;</p>
+<ul>
+<li><p>“Un premier tome que j’ai <strong>adoré</strong>, surtout le personnage principal, que je trouve <strong>attachante</strong>, et surtout <strong>très drôle</strong>. Elle possède un <strong>humour mordant</strong> que j’adore. L’histoire est tout aussi bien , j’adore cela change de ce que l’on peut sur les vampires d’habitude.”</p></li>
+<li><p>“Wouaw ! Ce premier tome est <strong>époustouflant</strong>, <strong>rempli d’humour</strong> et… il n’y a pas de mot mais je suis séduite ! Merit nous raconte son ascension de sa transformation à son statue de haute sentinelle dans la maison des Cadogan. MAIS ce livre est une <strong>MERVEILLE</strong> ! Son personnage est excellent ! Elle ne se laisse pas marcher dessus, et est sincèrement <strong>hilarante</strong> ! Et cela faisait longtemps que je n’avais pas été enjouer pour un livre comme je le suis pour celui ci !”</p></li>
+</ul>
+<p><strong>Note globale: 4,5 / 5</strong></p>
+<blockquote>
+<p>Livres du même auteur:</p>
+</blockquote>
+<ul>
+<li><p>“Les héritiers de Chicago”, spin off</p></li>
+<li><p>“Dark Elite”</p></li>
+<li><p>“Ile du diable”, VO</p></li>
+</ul>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
