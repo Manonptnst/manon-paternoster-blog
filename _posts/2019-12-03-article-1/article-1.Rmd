@@ -1,7 +1,7 @@
 ---
 title: "Article 1 : Les vampires de Chicago ~ Chloé Neill"
 description:
-  "Ça va saigner !" 
+  "Ça va saigner ! - Merit" 
 author:
   - name: Manon Paternoster
 date: 12-03-2019
@@ -65,7 +65,7 @@ Et cela faisait longtemps que je n'avais pas été enjouer pour un livre comme j
 **Note globale: 4,5 / 5**
 
 
-> Livres du même auteur:
+> Livres du même auteur
 
 * "Les héritiers de Chicago", spin off 
 

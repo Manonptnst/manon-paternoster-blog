@@ -1,0 +1,66 @@
+---
+title: "Article 2: The book of Ivy ~ Amy Engel"
+description: 
+  "Tous ceux qui meurent dans une guerre ne sont pas coupables. Parfois, ils sont simplement du mauvais côté. - Ivy"
+author:
+  - name: Manon Paternoster
+    url: {}
+date: 12-04-2019
+preview: thebookofivy.jpg
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+> Biographie 
+
+![](amy-engel.jpg)
+
+Née au Kansas au Etats-Unis, Amy Engel est partie très jeune vivre avec ses parents en Iran où elle y a gardé des bons souvenirs avant de se réinstaller dans le Missouri au Etats-Unis. Amy a été avocate de la défense criminelle pendant 10 ans avant de se rediriger vers l’écriture à plein temps, après l’arrivée de ses enfants. "The book of Ivy" fut le premier roman jeunes adultes qu’elle écrit et qui l’a propulsa en haut des marches lors des *Missouri Gateway Readers* et *Georgia Peach Book* Award.
+
+* Edition
+
+"The book of Ivy" est édité par *Lumen*. Cette série comporte **2 livres**. Tome 2: "The revolution of Ivy"
+
+* Genre
+
+Dystopie, science-fiction, jeune adulte, thriller.
+
+>  Résumé : tome 1
+
+"Née pour trahir et faite pour tuer... Sera-t-elle à la hauteur ?" 
+
+Voilà cinquante ans qu’une guerre nucléaire a décimé la population mondiale. Un groupe de survivants d’une dizaine de milliers de personnes a fini par se former, et ce qui reste des États-Unis d’Amérique s’est choisi un président. Mais des deux familles qui se sont affrontées pour obtenir le pouvoir, la mienne a perdu. Aujourd’hui, les fils et les filles des adversaires d’autrefois sont contraints de s’épouser, chaque année, lors d’une cérémonie censée assurer l’unité du peuple.
+
+J’ai seize ans cette année, et mon tour est venu.
+
+Je m’appelle Ivy Westfall, et je n’ai qu’une seule et unique mission dans la vie : tuer le garçon qu’on me destine, Bishop, le fils du président. Depuis ma plus tendre enfance, je me prépare pour ce moment. Peu importent mes sentiments, mes désirs, mes doutes. Les espoirs de toute une communauté reposent sur moi. Le temps de la rébellion approche…
+
+Bishop doit mourir. Et je serai celle qui le tuera.
+
+> Mon avis 
+
+D'abord attirée par le titre "Née pour trahir et faite pour tuer", j'ai été agréablement **suprise** par le roman d'Amy Engel. Les mots rythmés et fluides nous propulsent avec facilité dans un **monde post-apocalyptique réaliste**.
+
+J'ai adoré les **intrigues de cour** que l'on retrouve dans ce roman. Les survivants ont recréé un pouvoir monarchique avec des jeux de conflits politiques très intéressants, des gagnants, des perdants ainsi que des exclus. Dans ce premier tome, j'ai beaucoup aimé la situation dans laquelle notre héroïne se retrouve : le **dilemme** entre agir pour le bien de sa famille ou agir selon sa conscience au risque de tout perdre et plus encore.
+
+> L’avis des lecteurs 
+
+* "Une pure merveille, j'ai dévoré ce bouquin.
+Il est original, prenant, captivant, on ce prend a vivre a travers les yeux d Ivy.
+On l'aime, on essai de la comprendre et de comprendre ses choix de comprendre aussi les choix du président et de la ville.On d’investie dans se livre, je le recommande fortement." 
+
+* "Wahou ! J'ai lu ce livre d'une traite hier après-midi et j'ai absolument tout aimé, aucun détail ne m'a déçue, chaque passage est à sa place. Un réel coup de cœur comme je n'en ai pas eu depuis longtemps ! Dès les premières pages j'ai été complètement conquise et le reste du livre à été largement à la hauteur de mes attentes. Je suis tombée amoureuse des personnages d'Ivy et de Bishop, deux êtres trop purs pour le monde dans lequel ils vivent... Hâte de lire la suite que je commence dès ce soir !"
+
+**Note globale : 4,5 / 5**
+
+
+> Livre du même auteur
+
+-"Les filles de Roanoke", édition *j’ai lu*.  
+
+

@@ -1,10 +1,8 @@
 name: "blog-template"
-title: "Paternoster Manon blog"
+title: "Blog de Manon Paternoster"
 output_dir: "docs"
 navbar:
   right:
-    - text: "À la une"
-      href: news.html
     - text: "Critiques littéraires"
       href: index.html
     - text: "Ma PAL"

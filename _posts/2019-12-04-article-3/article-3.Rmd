@@ -1,0 +1,18 @@
+---
+title: "Article 3: Anarchie ~ Megan Devos"
+description: 
+  "Dans quel monde vivions-nous pour que les massacres et la vue du sang n'émeuvent plus personne ? - Hayden"
+author:
+  - name: Manon Paternoster
+    url: {}
+date: 12-04-2019
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+> Biographie
