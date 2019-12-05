@@ -14,8 +14,8 @@ navbar:
     - text: "A propos de moi"
       href: A_propos_de_moi.html
     - icon: fab fa-github
-      href: https://github.com/Manonptnst/Manon-paternoster-blog
-base_url: https://Manonptnst.github.io/Manon-paternoster-blog/
+      href: https://github.com/Manonptnst/manon-paternoster-blog
+base_url: https://Manonptnst.github.io/manon-paternoster-blog/
 collections:
     posts:
       disqus: 
