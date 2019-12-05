@@ -1,8 +1,5 @@
 ---
 title: "Coup de coeur"
-author: "Manon Paternoster"
-date: "03/12/2019"
-output: html_document
 ---
 
 ```{r setup, include=FALSE}
