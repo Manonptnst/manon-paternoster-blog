@@ -5,7 +5,8 @@ description:
 author:
   - name: Manon Paternoster
     url: {}
-date: 12-04-2019
+date: 16-12-2019
+preview: Anarchie.jpg
 output:
   distill::distill_article:
     self_contained: false
@@ -16,3 +17,36 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 > Biographie
+
+![](Megan-devos.jpg)
+
+ Megan Devos, infirmière de chirurgie dévouée, vit dans l’état du Dakota du Sud aux Etats-Unis. Son premier bouquin, "Anarchie", à d’abord été écrit sur la plateforme d’écriture **wattpad** avant d’être publié en mondial suite à son **grand succès**. 
+ 
+* Edition 
+
+"Anarchie" est édité par *JC Lattès*. La série comporte **4 livres**, dont 2 seulement en français pour l’instant. 
+
+* Genre
+
+Anarchie, dystopie, romance, monde post-apocalyptique. 
+
+> Résumé : tome 1
+
+Dans un monde divisé en clans, sans gouvernements ni lois, Hayden, vingt et un ans, est le chef respecté des Blackwing : fort, loyal, juste, il assure la protection de sa communauté. Quant à Grace, elle est la fille du chef des Greystone, un clan adversaire. Difficile pourtant de ne pas succomber à ses doux yeux verts et son agilité… Lorsque Grace est blessée au cours d’une mission, Hayden choisit de la sauver.
+
+Elle représente l’ennemi, elle est sa prisonnière et en sait bien trop sur Blackwing… Comment lui faire confiance, à elle qui a été entraînée pour le tuer ?
+
+> Mons avis
+
+Plume de l’auteur très agréable à lire. Le sujet m’a tout de suite attirée, étant fan des dystopies. Le point négatif que je pourrais soulever est la mise en avant excessive de l’histoire d’amour entre Hayden et Grace, en dépit des scènes de combats. Mise à part cela, les personnages sont attachants et l’intrigue captivante.
+
+> L'avis des lecteurs
+
+* "J'ai adoré ce livre je l'ai fini d'une traite! Les personnages sont attachants et étonnement très humains dans un monde totalement ravagé. Le livre est bien écrit et facile à lire ce qui entraîne le lecteur dans son univers. Seul petit bémol peut-être, la guérison très rapide des personnages qui n'est pas très réaliste."
+
+* "Une très bonne histoire dans un contexte à haut potentiel qui n'est pas exploité jusqu'au bout. J'ai trouvé l'histoire édulcorée et bien trop positive pour le contexte. Il n'arrive rien de bien grave au héros tout au long du récit. Quand l'auteur les entraîne les héros dans des situations délicates, ils les traversent sans tracas. Quand tu sens venir l'angoisse d'une scène qui va déraper... eh bien il ne se passe rien. Il y a aucune situation désespérée, aucune crise de larmes. Mon esprit n'est pas très affûté à ce genre, mais il est clairement plus sadique."
+
+**Note globale : 4 / 5**
+
+
+

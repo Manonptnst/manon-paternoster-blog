@@ -1,5 +1,5 @@
-name: "blog-template"
-title: "Blog de Manon Paternoster"
+name: "Manon Paternoster"
+title: "Manon Paternoster'blog"
 output_dir: "docs"
 navbar:
   right:
