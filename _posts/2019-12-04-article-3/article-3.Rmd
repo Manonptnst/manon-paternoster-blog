@@ -6,7 +6,7 @@ author:
   - name: Manon Paternoster
     url: {}
 date: 12-16-2019
-preview: Anarchie.jpg
+preview: anarchie.jpg
 output:
   distill::distill_article:
     self_contained: false
