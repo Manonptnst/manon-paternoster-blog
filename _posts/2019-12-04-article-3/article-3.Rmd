@@ -5,7 +5,7 @@ description:
 author:
   - name: Manon Paternoster
     url: {}
-date: 16-12-2019
+date: 12-16-2019
 preview: Anarchie.jpg
 output:
   distill::distill_article:
@@ -38,7 +38,7 @@ Elle représente l’ennemi, elle est sa prisonnière et en sait bien trop sur B
 
 > Mons avis
 
-Plume de l’auteur très agréable à lire. Le sujet m’a tout de suite attirée, étant fan des dystopies. Le point négatif que je pourrais soulever est la mise en avant excessive de l’histoire d’amour entre Hayden et Grace, en dépit des scènes de combats. Mise à part cela, les personnages sont attachants et l’intrigue captivante.
+Plume de l’auteur très agréable à lire. Le sujet m’a tout de suite attirée, étant fan des **dystopies**. Le point négatif que je pourrais soulever est la **mise en avant excessive de l’histoire d’amour** entre Hayden et Grace, en dépit des scènes de combats. Mise à part cela, les personnages sont attachants et l’**intrigue captivante**.
 
 > L'avis des lecteurs
 
